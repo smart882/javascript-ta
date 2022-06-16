@@ -1,7 +1,14 @@
 // complete the function
 function prime (num) {
   // code goes here
-}
+  for (var i = 2; i < num; i++){
+    if (num % 2 ==0){
+      return `${num} not a prime number`
+    }
+  }
+  return `${num} is a prime number`
+  } 
+
 
 function solution (arg) {
   return prime(arg);
